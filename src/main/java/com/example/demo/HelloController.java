@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "/api")
 public class HelloController {
 	
-	//@GetMapping annotasyonu ise, HTTP GET talebi için bir yönlendirici yöntemi tanımlamanızı sağlar.
+	//@GetMapping annotasyonu ise, HTTP GET talebi için bir yönlendirici yöntemi tanımlamanızı sağlar...
 	
 	//@RequestMapping(path = "/hello", method = RequestMethod.GET) eski yöntem ve okuması biraz zor
 	@GetMapping(path = "/hallo")
